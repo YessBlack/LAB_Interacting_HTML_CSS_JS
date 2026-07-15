@@ -130,3 +130,8 @@ body {
   background-color: #71eb8e;
   stroke: #29b249;
 }
+
+.buttonActions:hover {
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
