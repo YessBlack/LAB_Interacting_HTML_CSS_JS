@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: green;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0e7ff;
+  color: #311A6F;
+}
+
+.main {
+  width: 40%;
+  background-color: red;
+  padding: 16px;
+  border-radius: 30px;
+  background-color: #fdfbfd;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.headerIcon {
+  background-color: #e8defd;
+  color: #703afd;
+  padding: 8px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerIcon i {
+  width: 20px;
+  height: 20px;
+  stroke: #703afd;
+}
+
+.headerTitle {
+  font-size: 24px;
+}
+
+.headerSubtitle {
+  font-size: 15px;
+  color: #7c7c7c;
+}
+
+.body {
+  display: flex;
+  padding: 16px;
+  border-radius: 16px;
+  background-color: #f0ebf7;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+
+.body .icon {
+  stroke: #cfbefd;
+}
+
+.counter {
+  font-size: 55px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+.buttonActions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border-radius: 16px;
+  border: none;
+  gap: 10px;
+}
+
+.butttonIncrease {
+  background-color: #cbbbee;
+}
+
+.butttonDecrease {
+  background-color: #faafc8;
+}
+
+.buttonReset {
+  background-color: #B8EEC5;
+}
+
+.butttonIncrease .icon {
+  background-color: #a27eff;
+  border-radius: 50px;
+  stroke: #703afd;
+}
+
+.butttonDecrease .icon {
+  background-color: #fe7ca8;
+  border-radius: 50px;
+  stroke: #fb296f;
+}
+
+.buttonReset .icon {
+  background-color: #7deb97;
+  border-radius: 50px;
+  stroke: #5cd278;
+}
