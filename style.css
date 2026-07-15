@@ -4,7 +4,6 @@
 }
 
 body {
-  background-color: green;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -12,17 +11,17 @@ body {
   align-items: center;
   background-color: #f0e7ff;
   color: #311A6F;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main {
-  width: 40%;
-  background-color: red;
-  padding: 16px;
+  width: 35%;
+  padding: 40px 70px;
   border-radius: 30px;
   background-color: #fdfbfd;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .header {
@@ -62,12 +61,13 @@ body {
 
 .body {
   display: flex;
-  padding: 16px;
+  padding: 40px;
+  box-sizing: border-box;
   border-radius: 16px;
   background-color: #f0ebf7;
   display: flex;
   justify-content: space-between;
-  height: 100px;
+  height: 140px;
   align-items: center;
 }
 
@@ -76,13 +76,15 @@ body {
 }
 
 .counter {
-  font-size: 55px;
+  font-size: 70px;
+  font-weight: bold;
 }
 
 .footer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   gap: 5px;
+  width: 100%;
 }
 
 .buttonActions {
@@ -93,6 +95,13 @@ body {
   border-radius: 16px;
   border: none;
   gap: 10px;
+  width: 150px;
+}
+
+.buttonActions .icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
 }
 
 .butttonIncrease {
@@ -109,18 +118,15 @@ body {
 
 .butttonIncrease .icon {
   background-color: #a27eff;
-  border-radius: 50px;
   stroke: #703afd;
 }
 
 .butttonDecrease .icon {
   background-color: #fe7ca8;
-  border-radius: 50px;
   stroke: #fb296f;
 }
 
 .buttonReset .icon {
-  background-color: #7deb97;
-  border-radius: 50px;
-  stroke: #5cd278;
+  background-color: #71eb8e;
+  stroke: #29b249;
 }

@@ -1,3 +1,5 @@
+lucide.createIcons();
+
 const btnIncrease = document.getElementById('butttonIncrease')
 const btnDecrease = document.getElementById('butttonDecrease')
 const btnReset = document.getElementById('buttonReset')
